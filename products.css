@@ -1,0 +1,9 @@
+#Products {
+    background-color: #F5A3B2;
+    list-style: none;
+}
+.img {
+    border-radius: 18px;
+    width: 350px;
+    height: 200px;
+}
