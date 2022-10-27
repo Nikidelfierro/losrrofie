@@ -1,13 +1,25 @@
+.logo {
+    width: 60px;
+    display: flex;
+    flex-direction: row;    
+    border-radius: 20px;
+}
+
 header {
     background-color: #bb6e7d;
     padding: 16px 32px;
     position: sticky;
     top: 0;
     z-index: 100;
+    display: flex;
+
 }
 header nav ul {
     display: flex;
     list-style: none;
+    height: 100%;
+    align-items: center;
+
 }
 
 header nav ul li {
@@ -26,3 +38,4 @@ header nav ul li a{
 header nav ul li:hover {
     background-color: rgb(160, 84, 99);
 }
+
